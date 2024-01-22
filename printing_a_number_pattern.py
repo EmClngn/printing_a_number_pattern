@@ -8,4 +8,6 @@ layers = int(input("How many layers do you want your pyramid to be? "))
 # use for loop to create pattern
 for outer in range(layers + 1):
     for inner in range(outer):
-        print(outer)
+        print(outer, end = " ")
+    print()
+
